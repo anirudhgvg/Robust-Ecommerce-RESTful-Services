@@ -16,8 +16,8 @@ var app = express();
 
 var config = {
     user: 'root',
-    password: 'root',
-    host: '127.0.0.1',
+    password: 'rootroot',
+    host: 'anirudhgvg.chca9pd2o96e.us-east-1.rds.amazonaws.com',
     port: 3306, 
     database: 'quiz', 
 }
