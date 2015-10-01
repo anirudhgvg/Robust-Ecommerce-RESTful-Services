@@ -66,7 +66,7 @@ app.post('/updateInfo', user.loadPostUpdateProfile);
 app.post('/modifyProduct', admin.loadModifyProducts);
 app.get('/getProducts', routes.loadViewProducts);
 app.get('/viewUsers', admin.loadviewUsers);
-
+app.get('/',routes.loadResponse);
 
 
 http.createServer(app).listen(app.get('port'), function () {
