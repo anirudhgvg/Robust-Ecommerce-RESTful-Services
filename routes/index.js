@@ -10,6 +10,10 @@ exports.loadLogout = function (req, res) {
     }
 };
 
+exports.loadResponse = function (req, res) {
+        res.json({ message: "Instance alive" });
+};
+
 exports.loadViewProducts = function (req, res) {
     var mysql = require('./mysql.js').pool;
     
